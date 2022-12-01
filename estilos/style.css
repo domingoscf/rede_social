@@ -10,14 +10,15 @@ html, body{
     background-color: black;
 }
 body{
-    background: url('/projeto-social-master/imagens/fundo-madeira.jpg' )no-repeat, top, center;
+    background: url('/projeto-social-master/imagens/fundo-madeira.jpg' ) 
+    no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 main{
     height: 100vh;
     position: relative;
-    
    
 }
 section#telefone{
@@ -27,6 +28,7 @@ section#telefone{
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-   
     background: url('/projeto-social-master/imagens/frame-iphone.png') no-repeat;
+   
+   
 }
